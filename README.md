@@ -153,17 +153,17 @@ Se abritra una nueva pestaña en nuestro navegador, aquí debemos elegir el tipo
 
 Una vez dentro de la hoja de, al lado izquiedo de la pagina se encuntran todas las formass que podemos usar para nuestro diseño. Seleccionamos uno y lo arrastramos al centro de la hoja de trabajo 
 
-![jf15](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf15.PNG))
+![jf15](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf15.PNG)
 
-![jf16](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf16.PNG))
+![jf16](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf16.PNG)
 
 Seleccionamos tantas figuras como sean necesarias cuando damos clic en alguna figura de despliega un menu con opciones para editar nuestra figura, como por ejempllo darle color o poner un texto dentro
 
-![jf17](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf17)
+![jf17](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf17.PNG)
 
 Basta con tener un poco de creatividad para sacarle el maximo provecho a esta herramienta! 
 
-![jf18](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf18)
+![jf18](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf18.PNG)
 
 
 ## 8. APORTACIONES
