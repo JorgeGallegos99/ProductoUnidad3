@@ -89,7 +89,8 @@ Luego debemos ubicarnos en el estado siguiente cuando nuestro estado actual toma
 Repetimos este procedimiento con todos los estados tomando en cuenda cuál es su estado próximo cuando toma el valor de “1” y “0”.
  De esta forma construimos nuestro diagrama de estados, una forma de verificar que nuestro diagrama de estados es que cada estado debe tener dos transiciones. De esta forma verificamos que nuestro diagrama este realizado correctamente.
  
- ![Diagrama estado ej1](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama estado ej1)
+ 
+ ![Diagrama%20estado%20ej1.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama%20estado%20ej1.PNG)
  
  ![tablaEjercicio11.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/tablaEjercicio11.PNG)
  
