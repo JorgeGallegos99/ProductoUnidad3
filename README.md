@@ -80,11 +80,11 @@ Los estados de los circuitos son también las salidas del mismo. Es muy usado pa
 Para poder realizar nuestro diagrama de estado debemos guiarnos de nuestra tabla de transición.
 Nos ubicamos en la primera fila de la tabla, este es nuestro estado inicial y el estado actual, el estado siguiente será el que toma la maquina cuando la entrada es 0, y su salida correspondiente es 1 es decir S0. Debemos dibujar esta transición en el diagrama e indicar cuál es la entrada del estado siguiente y su correspondiente salida.
 
-![jf5](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf5.PNG)
+![jf5](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf5.png)
 
 Luego debemos ubicarnos en el estado siguiente cuando nuestro estado actual toma el valor de 1, podemos observar que el estado siguiente es S4, dibujamos la transición en la cual indicamos que la entrada del estado siguiente es uno y su salida correspondiente es 1.
 
-![jf6](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf6.PNG)
+![jf6](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf6.png)
 
 Repetimos este procedimiento con todos los estados tomando en cuenda cuál es su estado próximo cuando toma el valor de “1” y “0”.
  De esta forma construimos nuestro diagrama de estados, una forma de verificar que nuestro diagrama de estados es que cada estado debe tener dos transiciones. De esta forma verificamos que nuestro diagrama este realizado correctamente.
@@ -93,7 +93,7 @@ Repetimos este procedimiento con todos los estados tomando en cuenda cuál es su
  
  ![tablaEjercicio11.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/tablaEjercicio11.PNG)
  
- ![ tablaejercicio12,PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/ tablaejercicio12.PNG)
+ ![ tablaejercicio12.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/ tablaejercicio12.PNG)
  
  Para calcular la cadena de entrada debemos nos apoyamos de la tabla de transición
 Empezamos en el estado inicial S0 (morado).
