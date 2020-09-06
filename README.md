@@ -70,4 +70,7 @@ https://www.tecbolivia.com/index.php/articulos-y-tutoriales-microcontroladores/1
 
 https://bloganalisis1.files.wordpress.com/2011/01/apuntesdsd10_mealy_moore.pdf
 
+https://espe28.monday.com/boards/673079331/
+
+
 13. ANEXOS
