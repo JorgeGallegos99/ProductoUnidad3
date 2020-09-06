@@ -91,9 +91,9 @@ Repetimos este procedimiento con todos los estados tomando en cuenda cuál es su
  
  ![Diagrama estado ej1](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama estado ej1)
  
- ![tablaejercicio11](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/tablaejercicio11)
+ ![tablaEjercicio11.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/tablaEjercicio11.PNG)
  
- ![ tablaejercicio12](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/ tablaejercicio12)
+ ![ tablaejercicio12,PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/ tablaejercicio12.PNG)
  
  Para calcular la cadena de entrada debemos nos apoyamos de la tabla de transición
 Empezamos en el estado inicial S0 (morado).
