@@ -75,25 +75,25 @@ Los estados de los circuitos son también las salidas del mismo. Es muy usado pa
 
 **6.1. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente:**  
 
-![jf4]()
+![jf4](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf4.PNG)
 
 Para poder realizar nuestro diagrama de estado debemos guiarnos de nuestra tabla de transición.
 Nos ubicamos en la primera fila de la tabla, este es nuestro estado inicial y el estado actual, el estado siguiente será el que toma la maquina cuando la entrada es 0, y su salida correspondiente es 1 es decir S0. Debemos dibujar esta transición en el diagrama e indicar cuál es la entrada del estado siguiente y su correspondiente salida.
 
-![jf5]()
+![jf5](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf5.PNG)
 
 Luego debemos ubicarnos en el estado siguiente cuando nuestro estado actual toma el valor de 1, podemos observar que el estado siguiente es S4, dibujamos la transición en la cual indicamos que la entrada del estado siguiente es uno y su salida correspondiente es 1.
 
-![jf6]()
+![jf6](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf6.PNG)
 
 Repetimos este procedimiento con todos los estados tomando en cuenda cuál es su estado próximo cuando toma el valor de “1” y “0”.
  De esta forma construimos nuestro diagrama de estados, una forma de verificar que nuestro diagrama de estados es que cada estado debe tener dos transiciones. De esta forma verificamos que nuestro diagrama este realizado correctamente.
  
- ![Diagrama estado ej1]()
+ ![Diagrama estado ej1](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama estado ej1)
  
- ![tablaejercicio11]()
+ ![tablaejercicio11](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/tablaejercicio11)
  
- ![ tablaejercicio12]()
+ ![ tablaejercicio12](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/ tablaejercicio12)
  
  Para calcular la cadena de entrada debemos nos apoyamos de la tabla de transición
 Empezamos en el estado inicial S0 (morado).
@@ -105,19 +105,20 @@ Con el último estado al no tener una entrada tampoco sabemos que salida tendrá
 
 **6.2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.**
 
-![jf7]()
+![jf7](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf7)
 
 ![Diagramaestadoej2]()
 
 Para poder dibujar nuestro Diagrama de estados partimos del primer estado (S0) el cual se ubica en la primera fila de nuestra tabla. En el estado siguiente está dado por el estado que toma la maquina cuando toma el valor de a, en este caso S0, debemos dibujar esa transición y colocar la entrada y su correspondiente salida.
 
-![jf8]()
+![jf8](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf8)
 
 Continuamos con la siguiente subcolumna, la maquina salta de S0 a S3 debido a que es el estado que toma la maquina cuando toma el valor de B, dibujamos la transición y colocamos la correspondiente entrada y salida de esta subcolumna. Realizamos el mismo procedimiento con cada estado y con cada posible valor que puede tomar la máquina.
 
-![jf9]()
+![jf9](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf9)
 
-![jf10]()
+![jf10](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf10)
+
 Al igual que en el primer ejercicio debemos apoyarnos en la tabla de transición 
 El primer estado es S0 y cuando toma el valor de “a” su salida correspondiente es  “0” y el estado siguiente es S0, nos posicionamos en la fila que tenga S0, cuando este estado toma el valor de b su salida correspondiente es “1” y el estado siguiente que genera es S3, repetimos el procedimiento con todos los estados hasta que llegamos al estado final el cual solo se deja indicado ya que no tenemos una entrada y por lo tanto no podemos calcular su salida solo sabemos que será el estado siguiente.
 
@@ -136,33 +137,33 @@ Ingresamos en la página https://creately.com/
 
 Damos clic en sign in 
 
-![jf11]()
+![jf11](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf11)
 
 En la siguiente pagina damos clic en Sign in with google o ingresamos con nuestro correo electronico con el que nos registramos.
 
-![jf12]()
+![jf12](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf12)
 
 Para crar un nuevo diseño damos clic en el boton “añadir documento”
 
-![jf13]()
+![jf13](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf13)
 
 Se abritra una nueva pestaña en nuestro navegador, aquí debemos elegir el tipo de diseñoq eu queremos usar, para nuetro caso usaremos abriremos una hoja de trabajo en blanco
 
-![jf14]()
+![jf14](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf14)
 
 Una vez dentro de la hoja de, al lado izquiedo de la pagina se encuntran todas las formass que podemos usar para nuestro diseño. Seleccionamos uno y lo arrastramos al centro de la hoja de trabajo 
 
-![jf15]()
+![jf15](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf15)
 
-![jf16]()
+![jf16](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf16)
 
 Seleccionamos tantas figuras como sean necesarias cuando damos clic en alguna figura de despliega un menu con opciones para editar nuestra figura, como por ejempllo darle color o poner un texto dentro
 
-![jf17]()
+![jf17](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf17)
 
 Basta con tener un poco de creatividad para sacarle el maximo provecho a esta herramienta! 
 
-![jf18]()
+![jf18](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf18)
 
 
 ## 8. APORTACIONES
