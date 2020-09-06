@@ -32,7 +32,7 @@ Sin embargo este enfoque es práctico sólo para FSMs pequeñas.
 
 **Rama.-** Indica un cambio del estado presente al próximo estado.
 
-![jf1]()
+![jf1](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf1.PNG)
 
 Esquema de Diagrama de Estados
 
@@ -40,13 +40,13 @@ Esquema de Diagrama de Estados
 
 Dado el estado actual Q. Si llega un valor a la entrada el circuito de lógica / combinacional (L/C) calcula el estado siguiente y la salida. Cuando llega un pulso de reloj, se captura el nuevo estado. Defecto: Con el pulso de reloj se captura el nuevo estado y el L/C recalcula otro estado y una nueva salida.
 
-![jf2]()
+![jf2](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf2.PNG)
 
 **Máquina de Moore**
 
 Los estados de los circuitos son también las salidas del mismo. Es muy usado para generar secuencias de conteo ya que requiere menos circuitos combinacionales. En la maquina de moore, la salida se toma directamente del registro, por lo que no necesita logica combinacional para sintetizar la salida.
 
-![jf3]()
+![jf3](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf3.PNG)
 
 5. DIAGRAMAS
 
@@ -61,6 +61,8 @@ Los estados de los circuitos son también las salidas del mismo. Es muy usado pa
 10. RECOMENDACIONES
 
 11. CRONOGRAMA
+
+![jcronograma]()
 
 12. BIBLIOGRAFÍA
 
