@@ -93,7 +93,7 @@ Repetimos este procedimiento con todos los estados tomando en cuenda cuál es su
  
  ![tablaEjercicio11.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/tablaEjercicio11.PNG)
  
- ![ tablaejercicio12.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/ tablaejercicio12.PNG)
+ ![tablaEjercicio12.PNG]https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/tablaEjercicio12.PNG)
  
  Para calcular la cadena de entrada debemos nos apoyamos de la tabla de transición
 Empezamos en el estado inicial S0 (morado).
