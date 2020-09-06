@@ -93,7 +93,7 @@ Repetimos este procedimiento con todos los estados tomando en cuenda cuál es su
  
  ![tablaEjercicio11.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/tablaEjercicio11.PNG)
  
- ![tablaEjercicio12.PNG]https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/tablaEjercicio12.PNG)
+ ![tablaEjercicio12.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/tablaEjercicio12.PNG)
  
  Para calcular la cadena de entrada debemos nos apoyamos de la tabla de transición
 Empezamos en el estado inicial S0 (morado).
@@ -121,8 +121,6 @@ Continuamos con la siguiente subcolumna, la maquina salta de S0 a S3 debido a qu
 
 Al igual que en el primer ejercicio debemos apoyarnos en la tabla de transición 
 El primer estado es S0 y cuando toma el valor de “a” su salida correspondiente es  “0” y el estado siguiente es S0, nos posicionamos en la fila que tenga S0, cuando este estado toma el valor de b su salida correspondiente es “1” y el estado siguiente que genera es S3, repetimos el procedimiento con todos los estados hasta que llegamos al estado final el cual solo se deja indicado ya que no tenemos una entrada y por lo tanto no podemos calcular su salida solo sabemos que será el estado siguiente.
-
-
 
 Partiendo del estado S0, calcula la salida para la cadena de entrada 1000110
 
