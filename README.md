@@ -1,18 +1,22 @@
 # ProductoUnidad3
 
-1. PLANTEAMIENTO DEL PROBLEMA
+## 1. PLANTEAMIENTO DEL PROBLEMA
 
-2. OBJETIVOS
+## 2. OBJETIVOS
 
-**2.1. Realizar el analisis para determinar el diagrama de estado y la tabla de transicion de los ejercicios propuestos**
+**General**
 
-**2.2. Cosntruir el diagraba de estado a partir de una tabla de transicion**
+* Entender el funcionamiento de las máquinas de estado, y aplicarlo en la resolución de los ejercicios propuestos. 
 
-**2.2. construir una tabla de transicion a partir de un diagrama de estados**
+**Específicos**
 
-3. ESTADO DEL ARTE
+* Analizar los ejercicios propuestos para determinar el diagrama de estado de cada uno de los ejercicios.
 
-4. MARCO TEÓRICO
+* Construir para cada ejercicio una tabla de transición a partir de un diagrama de estados.
+
+## 3. ESTADO DEL ARTE
+
+## 4. MARCO TEÓRICO
 
 **MÁQUINAS DE ESTADO**
 
@@ -54,9 +58,20 @@ Los estados de los circuitos son también las salidas del mismo. Es muy usado pa
 
 ![jf3](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf3.PNG)
 
-5. DIAGRAMAS
+## 5. DIAGRAMAS
 
-6. EXPLICACIÓN DEL CÓDIGO FUENTE
+**Ejercicio 1**
+
+**Ejercicio 2 **
+
+**Ejericicio 3**
+
+**Ejercicio 4**
+
+
+
+
+## 6. EXPLICACIÓN DEL CÓDIGO FUENTE
 
 **6.1. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente:**  
 
@@ -112,7 +127,7 @@ Partiendo del estado S0, calcula la salida para la cadena de entrada 1000110
 
 
 
-7. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
+## 7. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
 La herramienta que utilizamos para la creacio de nuestros diagramas de estados es Creadly.com
 Una herramienta online con la cual podemos realizar variso tipos de apas mentales y conceptuales.
@@ -150,17 +165,17 @@ Basta con tener un poco de creatividad para sacarle el maximo provecho a esta he
 ![jf18]()
 
 
-8. APORTACIONES
+## 8. APORTACIONES
 
-9. CONCLUSIONES
+## 9. CONCLUSIONES
 
-10. RECOMENDACIONES
+## 10. RECOMENDACIONES
 
-11. CRONOGRAMA
+## 11. CRONOGRAMA
 
 ![jcronograma](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jcronograma.PNG)
 
-12. BIBLIOGRAFÍA
+## 12. BIBLIOGRAFÍA
 
 https://www.tecbolivia.com/index.php/articulos-y-tutoriales-microcontroladores/13-introduccion-a-las-maquinas-de-estado-finito
 
@@ -169,4 +184,4 @@ https://bloganalisis1.files.wordpress.com/2011/01/apuntesdsd10_mealy_moore.pdf
 https://espe28.monday.com/boards/673079331/
 
 
-13. ANEXOS
+## 13. ANEXOS
