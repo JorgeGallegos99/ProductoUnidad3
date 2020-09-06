@@ -51,8 +51,45 @@ Los estados de los circuitos son también las salidas del mismo. Es muy usado pa
 5. DIAGRAMAS
 
 6. EXPLICACIÓN DEL CÓDIGO FUENTE
+**6.1. 
 
 7. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
+
+La herramienta que utilizamos para la creacio de nuestros diagramas de estados es Creadly.com
+Una herramienta online con la cual podemos realizar variso tipos de apas mentales y conceptuales.
+
+Ingresamos en la página https://creately.com/
+
+Damos clic en sign in 
+
+![jf11]()
+
+En la siguiente pagina damos clic en Sign in with google o ingresamos con nuestro correo electronico con el que nos registramos.
+
+![jf12]()
+
+Para crar un nuevo diseño damos clic en el boton “añadir documento”
+
+![jf13]()
+
+Se abritra una nueva pestaña en nuestro navegador, aquí debemos elegir el tipo de diseñoq eu queremos usar, para nuetro caso usaremos abriremos una hoja de trabajo en blanco
+
+![jf14]()
+
+Una vez dentro de la hoja de, al lado izquiedo de la pagina se encuntran todas las formass que podemos usar para nuestro diseño. Seleccionamos uno y lo arrastramos al centro de la hoja de trabajo 
+
+![jf15]()
+
+![jf16]()
+
+Seleccionamos tantas figuras como sean necesarias cuando damos clic en alguna figura de despliega un menu con opciones para editar nuestra figura, como por ejempllo darle color o poner un texto dentro
+
+![jf17]()
+
+Basta con tener un poco de creatividad para sacarle el maximo provecho a esta herramienta! 
+
+![jf18]()
+
 
 8. APORTACIONES
 
