@@ -16,6 +16,25 @@
 
 ## 3. ESTADO DEL ARTE
 
+
+* **Identificación de una limitación específica en las redes recurrentes de retroalimentación local que actúan como máquinas Mealy-Moore**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 4. MARCO TEÓRICO
 
 **MÁQUINAS DE ESTADO**
