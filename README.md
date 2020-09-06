@@ -105,19 +105,19 @@ Con el último estado al no tener una entrada tampoco sabemos que salida tendrá
 
 **6.2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.**
 
-![jf7](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf7)
+![jf7](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf7.PNG)
 
 ![Diagramaestadoej2]()
 
 Para poder dibujar nuestro Diagrama de estados partimos del primer estado (S0) el cual se ubica en la primera fila de nuestra tabla. En el estado siguiente está dado por el estado que toma la maquina cuando toma el valor de a, en este caso S0, debemos dibujar esa transición y colocar la entrada y su correspondiente salida.
 
-![jf8](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf8)
+![jf8](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf8.PNG))
 
 Continuamos con la siguiente subcolumna, la maquina salta de S0 a S3 debido a que es el estado que toma la maquina cuando toma el valor de B, dibujamos la transición y colocamos la correspondiente entrada y salida de esta subcolumna. Realizamos el mismo procedimiento con cada estado y con cada posible valor que puede tomar la máquina.
 
-![jf9](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf9)
+![jf9](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf9.PNG))
 
-![jf10](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf10)
+![jf10](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf10.PNG))
 
 Al igual que en el primer ejercicio debemos apoyarnos en la tabla de transición 
 El primer estado es S0 y cuando toma el valor de “a” su salida correspondiente es  “0” y el estado siguiente es S0, nos posicionamos en la fila que tenga S0, cuando este estado toma el valor de b su salida correspondiente es “1” y el estado siguiente que genera es S3, repetimos el procedimiento con todos los estados hasta que llegamos al estado final el cual solo se deja indicado ya que no tenemos una entrada y por lo tanto no podemos calcular su salida solo sabemos que será el estado siguiente.
@@ -137,25 +137,25 @@ Ingresamos en la página https://creately.com/
 
 Damos clic en sign in 
 
-![jf11](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf11)
+![jf11](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf11.PNG))
 
 En la siguiente pagina damos clic en Sign in with google o ingresamos con nuestro correo electronico con el que nos registramos.
 
-![jf12](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf12)
+![jf12](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf12.PNG))
 
 Para crar un nuevo diseño damos clic en el boton “añadir documento”
 
-![jf13](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf13)
+![jf13](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf13.PNG))
 
 Se abritra una nueva pestaña en nuestro navegador, aquí debemos elegir el tipo de diseñoq eu queremos usar, para nuetro caso usaremos abriremos una hoja de trabajo en blanco
 
-![jf14](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf14)
+![jf14](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf14.PNG))
 
 Una vez dentro de la hoja de, al lado izquiedo de la pagina se encuntran todas las formass que podemos usar para nuestro diseño. Seleccionamos uno y lo arrastramos al centro de la hoja de trabajo 
 
-![jf15](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf15)
+![jf15](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf15.PNG))
 
-![jf16](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf16)
+![jf16](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf16.PNG))
 
 Seleccionamos tantas figuras como sean necesarias cuando damos clic en alguna figura de despliega un menu con opciones para editar nuestra figura, como por ejempllo darle color o poner un texto dentro
 
