@@ -62,7 +62,7 @@ Los estados de los circuitos son también las salidas del mismo. Es muy usado pa
 
 11. CRONOGRAMA
 
-![jcronograma]()
+![jcronograma](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jcronograma.PNG)
 
 12. BIBLIOGRAFÍA
 
