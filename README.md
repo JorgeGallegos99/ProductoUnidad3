@@ -4,6 +4,12 @@
 
 2. OBJETIVOS
 
+**2.1. Realizar el analisis para determinar el diagrama de estado y la tabla de transicion de los ejercicios propuestos**
+
+**2.2. Cosntruir el diagraba de estado a partir de una tabla de transicion**
+
+**2.2. construir una tabla de transicion a partir de un diagrama de estados**
+
 3. ESTADO DEL ARTE
 
 4. MARCO TEÓRICO
@@ -51,7 +57,60 @@ Los estados de los circuitos son también las salidas del mismo. Es muy usado pa
 5. DIAGRAMAS
 
 6. EXPLICACIÓN DEL CÓDIGO FUENTE
-**6.1. 
+
+**6.1. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente:**  
+
+![jf4]()
+
+Para poder realizar nuestro diagrama de estado debemos guiarnos de nuestra tabla de transición.
+Nos ubicamos en la primera fila de la tabla, este es nuestro estado inicial y el estado actual, el estado siguiente será el que toma la maquina cuando la entrada es 0, y su salida correspondiente es 1 es decir S0. Debemos dibujar esta transición en el diagrama e indicar cuál es la entrada del estado siguiente y su correspondiente salida.
+
+![jf5]()
+
+Luego debemos ubicarnos en el estado siguiente cuando nuestro estado actual toma el valor de 1, podemos observar que el estado siguiente es S4, dibujamos la transición en la cual indicamos que la entrada del estado siguiente es uno y su salida correspondiente es 1.
+
+![jf6]()
+
+Repetimos este procedimiento con todos los estados tomando en cuenda cuál es su estado próximo cuando toma el valor de “1” y “0”.
+ De esta forma construimos nuestro diagrama de estados, una forma de verificar que nuestro diagrama de estados es que cada estado debe tener dos transiciones. De esta forma verificamos que nuestro diagrama este realizado correctamente.
+ 
+ ![Diagrama estado ej1]()
+ 
+ ![tablaejercicio11]()
+ 
+ ![ tablaejercicio12]()
+ 
+ Para calcular la cadena de entrada debemos nos apoyamos de la tabla de transición
+Empezamos en el estado inicial S0 (morado).
+En la columna “Transición” nos ubicamos en la subcolumna que tenga el dato que estamos ingresando “1” la celda que corresponda al estado inicial y la columna del dato representa el estado siguiente de nuestra cadena S4 (celeste).
+Luego, nos ubicamos en la Columna salida y de igual forma buscamos la subcolumna que tenga el dato que estamos ingresando, la celda correspondiente nos dará el valor de la salida actual de nuestra tabla.
+Como siguiente paso nos dirigimos al estado siguiente obtenido en la primera transición en nuestro ejemplos S4 (celeste), le asignamos el siguiente dato de entrada “0”, de la misma forma debemos ir a la columna Transición y debemos localizarnos en la subcolumna que tenga el dato que estamos ingresando en este caso ingresamos un “0”, de la misma forma este nos data el estado siguiente S1 (amarillo), por ultimo verificamos en la subcolumna de salida el dato que ingresamos y colocamos la salida del dato actual en la fila salida.
+Repetimos este procedimiento con todas las entradas de la cadena.
+Con el último estado al no tener una entrada tampoco sabemos que salida tendrá por lo tanto solo dejamos indicado el estado siguiente que la tabla nos devuelve.
+
+**6.2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.**
+
+![jf7]()
+
+![Diagramaestadoej2]()
+
+Para poder dibujar nuestro Diagrama de estados partimos del primer estado (S0) el cual se ubica en la primera fila de nuestra tabla. En el estado siguiente está dado por el estado que toma la maquina cuando toma el valor de a, en este caso S0, debemos dibujar esa transición y colocar la entrada y su correspondiente salida.
+
+![jf8]()
+
+Continuamos con la siguiente subcolumna, la maquina salta de S0 a S3 debido a que es el estado que toma la maquina cuando toma el valor de B, dibujamos la transición y colocamos la correspondiente entrada y salida de esta subcolumna. Realizamos el mismo procedimiento con cada estado y con cada posible valor que puede tomar la máquina.
+
+![jf9]()
+
+![jf10]()
+Al igual que en el primer ejercicio debemos apoyarnos en la tabla de transición 
+El primer estado es S0 y cuando toma el valor de “a” su salida correspondiente es  “0” y el estado siguiente es S0, nos posicionamos en la fila que tenga S0, cuando este estado toma el valor de b su salida correspondiente es “1” y el estado siguiente que genera es S3, repetimos el procedimiento con todos los estados hasta que llegamos al estado final el cual solo se deja indicado ya que no tenemos una entrada y por lo tanto no podemos calcular su salida solo sabemos que será el estado siguiente.
+
+
+
+Partiendo del estado S0, calcula la salida para la cadena de entrada 1000110
+
+
 
 7. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
