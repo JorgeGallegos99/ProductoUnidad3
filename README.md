@@ -16,24 +16,70 @@
 
 ## 3. ESTADO DEL ARTE
 
+* **Detector de bordes negativos de Moore y Mealy Un ejemplo de VHDL para máquina de estados finitos**
 
-* **Identificación de una limitación específica en las redes recurrentes de retroalimentación local que actúan como máquinas Mealy-Moore**
+En el articulo *Detector de bordes negativos de Moore y Mealy Un ejemplo de VHDL para máquina de estados finitos* se mencionan dos variedades FSM, Moore y Mealy. Los diagramas de estado de la máquina de Moore y Mealy se diseñan e implementan mediante el uso de un circuito detector de borde negativo. Las máquinas de estado diseñadas se implementan en VHDL. Para ambas máquinas de estado también se hace una comparación.En las sociedades modernas, somos más dependientes de las herramientas informáticas, que nos ayudan a afrontar las vidas modernas recientes. Las máquinas automáticas realizan una variedad de operaciones adaptando los cambios en el entorno físico. 
+
+**Autores:**
+
+**Pradeep Garapati**
+
+Ingeniería electrónica y de la comunicación Fundación de Vignan para la ciencia, la tecnología y la investigación Vadlamudi
+
+**Sarada Musala**
+
+Ingeniería electrónica y de la comunicación Fundación de Vignan para la ciencia, la tecnología y la investigación Vadlamudi
+
+**Fecha y lugar de publicación:**
+
+*Fecha:*  28-30 de julio de 2020 en la conferencia Conferencia internacional de 2020 sobre comunicaciones y procesamiento de señales (ICCSP)  Chennai, India, India
 
 
+* **Un ejemplo de FSM de Moore y Mealy basado en VHDL para la educación**
 
+Las máquinas automatizadas modernas adaptan su secuencia de acciones en función de su entorno y eventos. La FSM (máquina de estados finitos) se utiliza para expresar matemáticamente esas secuencias de acciones o instrucciones. En el articulo *Un ejemplo de FSM de Moore y Mealy basado en VHDL para la educación*, se analizan dos tipos de máquinas FSM, Moore y Mealy. Mostrando diferentes resultados para demostrar la importancia del modelado FSM. Un circuito detector de bordes se diseña empleando máquinas Moore y Mealy. Es un ejemplo de diseño de FSM, se puede utilizar para la construcción y demostración de conceptos de los estudiantes. Estos diseños se implementan en VHDL. También se hace una comparación basada en ambas implementaciones.
 
+**Autores:**
 
+**Sultana Alsubaei**
 
+Departamento de Ingeniería Eléctrica e Informática, Universidad de Effat, Jeddah, KSA
 
+**SM Qaisar**
 
+Departamento de Ingeniería Eléctrica e Informática, Universidad de Effat, Jeddah, KSA
 
+**W. Alhalabi**
 
+Departamento de Ciencias de la Computación, Universidad de Effat, Jeddah, KSA
 
+**Fecha y lugar de publicación:**
 
+*Fecha:*  4-6 de agosto de 2017 en 2017 IEEE 2nd International Conference on Signal and Image Processing (ICSIP)
 
+**Realización de circuito secuencial usando máquina de estados finitos**
 
+La teoría de los autómatas es una herramienta que se utiliza en la informática multidisciplinar y la investigación científica. Es la base detrás del modelo tradicional de cálculo y se usa para muchos propósitos, como diseño de circuitos de controlador, diseño de circuitos secuenciales, etc. Un detector de secuencia es una máquina de estado secuencial que se usa para detectar bits consecutivos en una cadena binaria.
 
+Este documento técnico examina varias secuencias y da un resultado como 1 si se detecta la secuencia 1101. Los tipos de secuencia examinados son secuencias superpuestas. El algoritmo diseñado para detectar la secuencia 1101 usa flip-flops. Las chanclas ayudan a detectar el patrón en la cadena dada.
 
+**Autores:**
+
+**Urvashi Kodwani**
+
+Departamento de Ingeniería Informática, Facultad de Ingeniería y Gestión Shri Ramdeobaba, Nagpur, India
+
+**Sonal Rajurkar**
+
+Departamento de Ingeniería Informática, Facultad de Ingeniería y Gestión Shri Ramdeobaba, Nagpur, India
+
+**SG Mundada**
+
+Departamento de Ingeniería Informática, Facultad de Ingeniería y Gestión Shri Ramdeobaba, Nagpur, India
+
+**Fecha y lugar de publicación:**
+
+*Fecha:*  15-16 de junio de 2017 en la conferencia 2017 Congreso Internacional sobre Sistemas de Control e Informática Inteligente (ICICCS)
 
 ## 4. MARCO TEÓRICO
 
@@ -127,7 +173,7 @@ Con el último estado al no tener una entrada tampoco sabemos que salida tendrá
 
 ![jf7](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf7.PNG)
 
-![Diagramaestadoej2]()
+![Diagrama_de%20_Estados%20_Ejercicio%20_2.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_de%20_Estados%20_Ejercicio%20_2.png)
 
 Para poder dibujar nuestro Diagrama de estados partimos del primer estado (S0) el cual se ubica en la primera fila de nuestra tabla. En el estado siguiente está dado por el estado que toma la maquina cuando toma el valor de a, en este caso S0, debemos dibujar esa transición y colocar la entrada y su correspondiente salida.
 
