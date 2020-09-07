@@ -2,6 +2,13 @@
 
 ## 1. PLANTEAMIENTO DEL PROBLEMA
 
+
+Para la realización de varios circuitos que poseen un modelo de comportamiento dependiente de una señal anterior y presente a la vez, es normal hacer referencia a dispositivos como flip-flops para almacenar información independiente de los distintos cambios de cierta entrada.
+
+Sin embargo la utilización de máquinas de estado finitos de igual manera son un buen instrumento para modelar circuitos digitales con memoria ya que representan el comportamiento de un sistema con entradas y salidas en donde las salidas dependen no solo de las señales de entradas actuales, sino también de las anteriores y sirven de intermediarios en esta relación de entradas y salidas, haciendo que el historial de señales de entrada determine para cada instante un estado para la máquina; de esta forma la salida depende únicamente del estado y las entradas actuales.
+
+En base a estos conceptos se pretende realizar el análisis de varios ejercicios que permiten el desarrollo y entendimiento de las tablas de transición para diferentes cadenas de entrada como la creación de los diagramas de estado que describen el comportamiento establecido de forma visual, además del plantemiento de dos problemas apicados a máquinas de estado finitas.
+
 ## 2. OBJETIVOS
 
 **General**
