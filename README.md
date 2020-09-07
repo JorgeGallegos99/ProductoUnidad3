@@ -115,7 +115,7 @@ Sin embargo este enfoque es práctico sólo para FSMs pequeñas.
 
 ![jf1](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf1.PNG)
 
-Esquema de Diagrama de Estados
+**Figura 1:** Esquema de Diagrama de Estados
 
 **Máquina de Mealy**
 
@@ -123,11 +123,15 @@ Dado el estado actual Q. Si llega un valor a la entrada el circuito de lógica /
 
 ![jf2](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf2.PNG)
 
+**Figura2:** Máquina de Mealy
+
 **Máquina de Moore**
 
 Los estados de los circuitos son también las salidas del mismo. Es muy usado para generar secuencias de conteo ya que requiere menos circuitos combinacionales. En la maquina de moore, la salida se toma directamente del registro, por lo que no necesita logica combinacional para sintetizar la salida.
 
 ![jf3](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf3.PNG)
+
+**Figura 3:** Máquina de Moore.
 
 ## 5. DIAGRAMAS
 
@@ -137,22 +141,31 @@ Diagramas de estado de los ejercicios propuestos
 
 ![Diagramaej_1.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagramaej_1.png)
 
+**Figura 4:** Diagrama de Estados ejercicio 1
+
 **Ejercicio 2**
 
 ![Diagrama_de%20_Estados%20_Ejercicio%20_2.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_de%20_Estados%20_Ejercicio%20_2.png)
+
+**Figura 5:** Diagrama de Estados ejercicio 2
 
 **Ejericicio 3**
 
 ![ ](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_estado_ejer3.PNG)
 
+**Figura 6:** Diagrama de Estados ejercicio 3
+
 **Ejercicio 4**
 
 ![DIAGRAMAESTADOSBEBIDAS.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/DIAGRAMAESTADOSBEBIDAS.PNG)
+
+**Figura 7:** Diagrama de Estados ejercicio 4
 
 **Ejercicio 5**
 
 ![](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/WhatsApp%20Image%202020-09-06%20at%2020.39.22.jpeg)
 
+**Figura 8:** Diagrama de Estados ejercicio 5
 
 ## 6. EXPLICACIÓN DEL CÓDIGO FUENTE
 
@@ -160,24 +173,36 @@ Diagramas de estado de los ejercicios propuestos
 
 ![jf4](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf4.PNG)
 
+**Figura 9:** Tabla de Transiciones
+
 Para poder realizar nuestro diagrama de estado debemos guiarnos de nuestra tabla de transición.
 Nos ubicamos en la primera fila de la tabla, este es nuestro estado inicial y el estado actual, el estado siguiente será el que toma la maquina cuando la entrada es 0, y su salida correspondiente es 1 es decir S0. Debemos dibujar esta transición en el diagrama e indicar cuál es la entrada del estado siguiente y su correspondiente salida.
 
 ![jf5](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf5.png)
 
+**Figura 10:** Graficación paso 1 del diagrama en Creately.
+
 Luego debemos ubicarnos en el estado siguiente cuando nuestro estado actual toma el valor de 1, podemos observar que el estado siguiente es S4, dibujamos la transición en la cual indicamos que la entrada del estado siguiente es uno y su salida correspondiente es 1.
 
 ![jf6](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf6.png)
+
+**Figura 11:** Graficación paso 2 del diagrama en Creately.
 
 Repetimos este procedimiento con todos los estados tomando en cuenda cuál es su estado próximo cuando toma el valor de “1” y “0”.
  De esta forma construimos nuestro diagrama de estados, una forma de verificar que nuestro diagrama de estados es que cada estado debe tener dos transiciones. De esta forma verificamos que nuestro diagrama este realizado correctamente.
  
  
- ![Diagrama%20estado%20ej1.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama%20estado%20ej1.PNG)
+ ![Diagramaej_1.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagramaej_1.png)
+ 
+ **Figura 12:**  Diagrama de estado Completo, ejercicio 1
  
  ![tablaEjercicio11.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/tablaEjercicio11.PNG)
  
+  **Figura 13:**  Resolución Ejercicio 1
+  
  ![tablaEjercicio12.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/tablaEjercicio12.PNG)
+ 
+  **Figura 14:** Tabla con la Salida para 1000110.
  
  Para calcular la cadena de entrada debemos nos apoyamos de la tabla de transición
 Empezamos en el estado inicial S0 (morado).
@@ -282,29 +307,27 @@ Para poder establecer todos estos puntos se realizó una tabla de variables de e
 ![Tabla final de Bebidas](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/TABLABEBIDASS.jpeg)
 
 
-**6.5 Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:**
-
+**6.5 Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:
 a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar las siguientes condiciones:
 
-  i. Para evitar que la bomba se estropee por funcionar en vacío, nunca se accionará la bomba cuando el depósito de agua esté vacío.
+**i. Para evitar que la bomba se estropee por funcionar en vacío, nunca se accionará la bomba cuando el depósito de agua esté vacío.
     
-  ii. Si hay restricciones en el riego (época de verano), sólo se podrá regar de noche.
+**ii. Si hay restricciones en el riego (época de verano), sólo se podrá regar de noche.
 
-  iii. En el resto del año (si no hay restricciones) se podrá regar de día y de noche (si la tierra
+ **iii. En el resto del año (si no hay restricciones) se podrá regar de día y de noche (si la tierra
     está seca).
     
- b. Para la implementación del circuito se dispone de las siguientes entradas:
+ **b. Para la implementación del circuito se dispone de las siguientes entradas:
  
- i. S: Señal que indica si la tierra está seca: Tierra seca: S=1; Tierra húmeda: S=0
+ **i. S: Señal que indica si la tierra está seca: Tierra seca: S=1; Tierra húmeda: S=0
  
- ii. R: Señal que indica si hay restricciones en el riego (es verano):  Hay restricciones: R=1 No hay restricciones: R=0
+ **ii. R: Señal que indica si hay restricciones en el riego (es verano):  Hay restricciones: R=1 No hay restricciones: R=0
  
- iii. D: Señal que indica si es de día o de noche: Día: D=1; Noche: D=0
+ **iii. D: Señal que indica si es de día o de noche: Día: D=1; Noche: D=0
  
- iv. V: Señal que indica si el depósito de agua está vacío: Vacío: V=1; Hay agua: V=0
+ **iv. V: Señal que indica si el depósito de agua está vacío: Vacío: V=1; Hay agua: V=0
     
-c. Y la salida B, que accionará la bomba para regar: Bomba funcionando: B=1; Bomba apagada B=0.
-
+**c. Y la salida B, que accionará la bomba para regar: Bomba funcionando: B=1; Bomba apagada B=0.**
 
 **Explicación** 
 
