@@ -148,6 +148,7 @@ Diagramas de estado de los ejercicios propuestos
 
 **Ejercicio 4**
 
+![DIAGRAMAESTADOSBEBIDAS.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/DIAGRAMAESTADOSBEBIDAS.PNG)
 
 **Ejercicio 5**
 
