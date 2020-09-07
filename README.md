@@ -236,10 +236,15 @@ Cada moneda podrá ser ingresada siempre y cuando se entregue el flanco correspo
 Partiendo de esto se analizaron todos los posibles estados que intervienen en el funcionamiento de la máquina de bebidas: 
 
 A: Cero centavos: 000
+
 B: Cinco centavos: 001
+
 C: Diez centavos: 010
+
 D: Quince centavos: 011
+
 E: Veinte centavos: 100
+
 F: Veinte y cinco o más centavos: 000 Siendo este punto el reinicio de la máquina y la entrega de la bebida
 
 Teniendo los estados anteriores involucrados en la transición de presente a próximo estado como se muestra en la siguiente tabla:
