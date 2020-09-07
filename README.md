@@ -125,15 +125,19 @@ Los estados de los circuitos son también las salidas del mismo. Es muy usado pa
 
 ## 5. DIAGRAMAS
 
+Diagramas de estado de los ejercicios propuestos
+
 **Ejercicio 1**
 
+![Diagrama%20estado%20ej1.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama%20estado%20ej1.PNG)
+
 **Ejercicio 2 **
+
+![Diagrama_de%20_Estados%20_Ejercicio%20_2.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_de%20_Estados%20_Ejercicio%20_2.png)
 
 **Ejericicio 3**
 
 **Ejercicio 4**
-
-
 
 
 ## 6. EXPLICACIÓN DEL CÓDIGO FUENTE
@@ -189,6 +193,60 @@ Al igual que en el primer ejercicio debemos apoyarnos en la tabla de transición
 El primer estado es S0 y cuando toma el valor de “a” su salida correspondiente es  “0” y el estado siguiente es S0, nos posicionamos en la fila que tenga S0, cuando este estado toma el valor de b su salida correspondiente es “1” y el estado siguiente que genera es S3, repetimos el procedimiento con todos los estados hasta que llegamos al estado final el cual solo se deja indicado ya que no tenemos una entrada y por lo tanto no podemos calcular su salida solo sabemos que será el estado siguiente.
 
 Partiendo del estado S0, calcula la salida para la cadena de entrada 1000110
+
+**6.3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es: **
+
+
+
+
+**6.4. Construya una máquina de estado finito que modele una máquina expendedora de bebidas que acepta monedas de 5, 10 y 20 centavos. La máquina acepta monedas hasta que se introducen 25 centavos y devuelve cualquier cantidad que supere los 25 céntimos. Entonces, el cliente puede pulsar los botones y elegir una bebida de cola (C), cerveza (Z) o agua (A).**
+
+**Explicación**
+
+
+
+**Tabla**
+
+
+
+**Diagrama de Estados**
+
+
+![Diagrama_de_estados_ejercicio_4.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_de_estados_ejercicio_4.png)
+
+
+
+**6.5 Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:
+ a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar
+las siguientes condiciones:
+    i. Para evitar que la bomba se estropee por funcionar en vacío, nunca se accionará la
+    bomba cuando el depósito de agua esté vacío.
+    ii. Si hay restricciones en el riego (época de verano), sólo se podrá regar de noche.
+    iii. En el resto del año (si no hay restricciones) se podrá regar de día y de noche (si la tierra
+    está seca).
+ b. Para la implementación del circuito se dispone de las siguientes entradas:
+    i. S: Señal que indica si la tierra está seca: Tierra seca: S=1; Tierra húmeda: S=0
+    ii. R: Señal que indica si hay restricciones en el riego (es verano): Hay restricciones: R=1
+    No hay restricciones: R=0
+    iii. D: Señal que indica si es de día o de noche: Día: D=1; Noche: D=0
+    iv. V: Señal que indica si el depósito de agua está vacío: Vacío: V=1; Hay agua: V=0
+c. Y la salida B, que accionará la bomba para regar: Bomba funcionando: B=1; Bomba apagada
+B=0.
+
+**Explicación** 
+
+
+
+
+**Tabla:**
+
+
+
+
+**Diagrama de Estados**
+
+
+
 
 
 
