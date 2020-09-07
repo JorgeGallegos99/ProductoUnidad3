@@ -2,7 +2,6 @@
 
 ## 1. PLANTEAMIENTO DEL PROBLEMA
 
-
 Para la realización de varios circuitos que poseen un modelo de comportamiento dependiente de una señal anterior y presente a la vez, es normal hacer referencia a dispositivos como flip-flops para almacenar información independiente de los distintos cambios de cierta entrada.
 
 Sin embargo la utilización de máquinas de estado finitos de igual manera son un buen instrumento para modelar circuitos digitales con memoria ya que representan el comportamiento de un sistema con entradas y salidas en donde las salidas dependen no solo de las señales de entradas actuales, sino también de las anteriores y sirven de intermediarios en esta relación de entradas y salidas, haciendo que el historial de señales de entrada determine para cada instante un estado para la máquina; de esta forma la salida depende únicamente del estado y las entradas actuales.
@@ -136,15 +135,15 @@ Diagramas de estado de los ejercicios propuestos
 
 **Ejercicio 1**
 
-![Diagrama%20estado%20ej1.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama%20estado%20ej1.PNG)
+![Diagramaej_1.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagramaej_1.png)
 
-**Ejercicio 2 **
+**Ejercicio 2**
 
 ![Diagrama_de%20_Estados%20_Ejercicio%20_2.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_de%20_Estados%20_Ejercicio%20_2.png)
 
 **Ejericicio 3**
 
-![ ](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_estado_ejer4.PNG)
+![ ](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_estado_ejer3.PNG)
 
 **Ejercicio 4**
 
@@ -217,9 +216,19 @@ Partiendo del estado S0, calcula la salida para la cadena de entrada 1000110
 
 En este caso *S0*, sera el primer estado entonces colocamos en el primer casillero de estados de nuestra tabla de transiciones    
 
+![ ](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Ejer3_1.PNG)
+
 * A continuacion vemos que sucede con las flechas, tanto las que salen como las que ingresan ya que nos indicarán a que estado debemos dirigirnos.
 
 * Para colocar los estados actuales debemos tener en cuenta los valores que estan en el medio de las flechas ya que seran los estados actuales es decir los que iran en nuestra tabla.
+
+ Todos los datos descritos anteriormente se muestran en la siguiente imagen en la que los estados estan con un circulo verde, las flechas de color celeste y los estados actuales estan de color amarillo
+
+![](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_estado_ejer3_2.PNG)
+
+Entonces en la primera columna colocaremos los estados, en la segunda columna Transiciones y la última sera Salida las dos se dividirán en 1, 0 y dependiendo de en que estado se encuentre se colocará, el estado y el valor de 0 o de 1.
+
+A continuación se muestra la tabla resultante con base en el diagrama de estados dado.
 
 ![Tablaej_3.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Tablaej_3.PNG)
 
