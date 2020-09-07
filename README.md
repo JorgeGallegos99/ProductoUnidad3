@@ -144,7 +144,14 @@ Diagramas de estado de los ejercicios propuestos
 
 **Ejericicio 3**
 
+![ ](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_estado_ejer4.PNG)
+
 **Ejercicio 4**
+
+
+**Ejercicio 5**
+
+![](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/WhatsApp%20Image%202020-09-06%20at%2020.39.22.jpeg)
 
 
 ## 6. EXPLICACIÓN DEL CÓDIGO FUENTE
@@ -203,7 +210,17 @@ Partiendo del estado S0, calcula la salida para la cadena de entrada 1000110
 
 **6.3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es: **
 
+![ ](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_estado_ejer4.PNG)
 
+* Para obtener la tabla de transisiciones,  se debe tener en cuenta cual es el  estado de inicio.                                                                               
+
+En este caso *S0*, sera el primer estado entonces colocamos en el primer casillero de estados de nuestra tabla de transiciones    
+
+* A continuacion vemos que sucede con las flechas, tanto las que salen como las que ingresan ya que nos indicarán a que estado debemos dirigirnos.
+
+* Para colocar los estados actuales debemos tener en cuenta los valores que estan en el medio de las flechas ya que seran los estados actuales es decir los que iran en nuestra tabla.
+
+![Tablaej_3.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Tablaej_3.PNG)
 
 
 **6.4. Construya una máquina de estado finito que modele una máquina expendedora de bebidas que acepta monedas de 5, 10 y 20 centavos. La máquina acepta monedas hasta que se introducen 25 centavos y devuelve cualquier cantidad que supere los 25 céntimos. Entonces, el cliente puede pulsar los botones y elegir una bebida de cola (C), cerveza (Z) o agua (A).**
@@ -223,37 +240,29 @@ Partiendo del estado S0, calcula la salida para la cadena de entrada 1000110
 
 
 
-**6.5 Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado en la figura. 
-El circuito deberá accionar la bomba en las siguientes condiciones:**
-**
- a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar las siguientes condiciones:
+**6.5 Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:**
 
-    i. Para evitar que la bomba se estropee por funcionar en vacío, nunca se accionará la
-    bomba cuando el depósito de agua esté vacío.
+a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar las siguientes condiciones:
+
+  i. Para evitar que la bomba se estropee por funcionar en vacío, nunca se accionará la bomba cuando el depósito de agua esté vacío.
     
-    ii. Si hay restricciones en el riego (época de verano), sólo se podrá regar de noche.
+  ii. Si hay restricciones en el riego (época de verano), sólo se podrá regar de noche.
 
-    iii. En el resto del año (si no hay restricciones) se podrá regar de día y de noche (si la tierra
+  iii. En el resto del año (si no hay restricciones) se podrá regar de día y de noche (si la tierra
     está seca).
     
  b. Para la implementación del circuito se dispone de las siguientes entradas:
  
-    i. S: Señal que indica si la tierra está seca: 
-    Tierra seca: S=1; Tierra húmeda: S=0
+ i. S: Señal que indica si la tierra está seca: Tierra seca: S=1; Tierra húmeda: S=0
  
-    ii. R: Señal que indica si hay restricciones en el riego (es verano): 
-    Hay restricciones: R=1
-    No hay restricciones: R=0
+ ii. R: Señal que indica si hay restricciones en el riego (es verano):  Hay restricciones: R=1 No hay restricciones: R=0
+ 
+ iii. D: Señal que indica si es de día o de noche: Día: D=1; Noche: D=0
+ 
+ iv. V: Señal que indica si el depósito de agua está vacío: Vacío: V=1; Hay agua: V=0
     
-    iii. D: Señal que indica si es de día o de noche: 
-    Día: D=1; Noche: D=0
-    
-    iv. V: Señal que indica si el depósito de agua está vacío: 
-    Vacío: V=1; Hay agua: V=0
-    
-c. Y la salida B, que accionará la bomba para regar: 
-Bomba funcionando: B=1; Bomba apagada B=0.
-**
+c. Y la salida B, que accionará la bomba para regar: Bomba funcionando: B=1; Bomba apagada B=0.
+
 
 **Explicación** 
 
