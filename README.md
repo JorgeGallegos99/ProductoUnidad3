@@ -216,22 +216,37 @@ Partiendo del estado S0, calcula la salida para la cadena de entrada 1000110
 
 
 
-**6.5 Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:
- a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar
-las siguientes condiciones:
+**6.5 Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado en la figura. 
+El circuito deberá accionar la bomba en las siguientes condiciones:**
+**
+ a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar las siguientes condiciones:
+
     i. Para evitar que la bomba se estropee por funcionar en vacío, nunca se accionará la
     bomba cuando el depósito de agua esté vacío.
+    
     ii. Si hay restricciones en el riego (época de verano), sólo se podrá regar de noche.
+
     iii. En el resto del año (si no hay restricciones) se podrá regar de día y de noche (si la tierra
     está seca).
+    
  b. Para la implementación del circuito se dispone de las siguientes entradas:
-    i. S: Señal que indica si la tierra está seca: Tierra seca: S=1; Tierra húmeda: S=0
-    ii. R: Señal que indica si hay restricciones en el riego (es verano): Hay restricciones: R=1
+ 
+    i. S: Señal que indica si la tierra está seca: 
+    Tierra seca: S=1; Tierra húmeda: S=0
+ 
+    ii. R: Señal que indica si hay restricciones en el riego (es verano): 
+    Hay restricciones: R=1
     No hay restricciones: R=0
-    iii. D: Señal que indica si es de día o de noche: Día: D=1; Noche: D=0
-    iv. V: Señal que indica si el depósito de agua está vacío: Vacío: V=1; Hay agua: V=0
-c. Y la salida B, que accionará la bomba para regar: Bomba funcionando: B=1; Bomba apagada
-B=0.
+    
+    iii. D: Señal que indica si es de día o de noche: 
+    Día: D=1; Noche: D=0
+    
+    iv. V: Señal que indica si el depósito de agua está vacío: 
+    Vacío: V=1; Hay agua: V=0
+    
+c. Y la salida B, que accionará la bomba para regar: 
+Bomba funcionando: B=1; Bomba apagada B=0.
+**
 
 **Explicación** 
 
@@ -289,6 +304,29 @@ Basta con tener un poco de creatividad para sacarle el maximo provecho a esta he
 
 
 ## 8. APORTACIONES
+
+Se realizó una simulación del diseño de una máquina de bebidas sencilla para entender el funcionamiento del desarrollo propuesto en el ejercicio 4.
+Esta máquina de bebidas funciona con 3 monedas: 5, 10, 15. Y entrega una gaseosa de forma automática cuando se alcanza o supera el valor de los 15 centavos, mostrando en sus displays la letra G de gaseosa y C de cambio  (de ser el caso).
+
+![Aporte](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/APORTE.PNG)
+
+El ingreso de los datos se lo realiza por un DipSwitch de 2 entradas y solo se podra ingresar las monedas cuando se de un "flanco" al circuito
+
+![Ingreso Datos](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/APINGRESODATOS.PNG)
+
+![Flanco](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/APFLANCOS.PNG)
+
+Se utilizó un sistema de decodificación de próximo estado por medio de multiplexores y compuertas
+
+![Deco ProxEstado](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/APDECO.PNG)
+
+El elemento de memoria utilizado funciona en base flip-flops 
+
+![Elemento Memoria](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/APELEMENTOMEMORIA.PNG)
+
+Finalmente para la visualización de los valores en los displays se utilizó una decodificación de salida para estos datos:
+
+![Deco Salida](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/APDECOSALIDA.PNG)
 
 ## 9. CONCLUSIONES
 
