@@ -208,7 +208,7 @@ El primer estado es S0 y cuando toma el valor de “a” su salida correspondien
 
 Partiendo del estado S0, calcula la salida para la cadena de entrada 1000110
 
-**6.3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es: **
+**6.3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es:**
 
 ![ ](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_estado_ejer4.PNG)
 
@@ -223,7 +223,7 @@ En este caso *S0*, sera el primer estado entonces colocamos en el primer casille
 ![Tablaej_3.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Tablaej_3.PNG)
 
 
-**6.4. Construya una máquina de estado finito que modele una máquina expendedora de bebidas que acepta monedas de 5, 10 y 20 centavos. La máquina acepta monedas hasta que se introducen 25 centavos y devuelve cualquier cantidad que supere los 25 céntimos. Entonces, el cliente puede pulsar los botones y elegir una bebida de cola (C), cerveza (Z) o agua (A).**
+**6.4. Construya una máquina de estado finito que modele una máquina expendedora de bebidas que acepta monedas de 5, 10 y 20 centavos. La máquina acepta monedas hasta que se introducen 25 centavos y devuelve cualquier cantidad que supere los 25 céntimos. Entonces, el cliente puede pulsar los botones y elegir una bebida de cola (G), cerveza (C) o agua (A).**
 
 **Explicación**
 
