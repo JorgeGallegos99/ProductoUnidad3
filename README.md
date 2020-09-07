@@ -250,19 +250,23 @@ Bomba funcionando: B=1; Bomba apagada B=0.
 
 **Explicación** 
 
+Para la realizacion de la tabla de transicion de este ejercicos partimos del la condcion de que la bomba solo funcionarrá cuando la tierra esté seca.
+En este caso realizamos el analisis y se llego a determinar que cuando la tierra este humeda nuestra maquina de destados permanecera en el mismo lugar y cuando este seca se movera al siguiente estado en este caso es si existe o no existerestriccion.
 
+Para el caso de el estado de la restriccion se tomo en cuenta que cuando no hay restriccion la maquina regresara al estado inicial y si existe restriccion solo se regara cuando sea de noche o dependa de que tenga la variable D.
+
+para el caso del estado D se concidero que cuando sea de noche el estado siguiente sera si existe o no existe restriccion, de eso dependera si fuinciona o no la bomba. el otro valor que puede tomar D es cuando es de dia. Para este caso se tomo encuenta que la bomba solo fuciona si el tanue esta lleno para que no se estropee.
+
+por ultimo el estado V representa si el tanque de agua esta lleno o vacio, cuando el tanque esta lleno el funcionamiento de la bomba dependera de si el suelo esta seco o húmedo. ara cuando el tanque este vacio se quedara en el mismo estado debido a que una de las condiciones establecidas es que la bomba no debe funcionar si el tanque esta vacio. 
 
 
 **Tabla:**
 
-
-
+![](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/WhatsApp%20Image%202020-09-06%20at%2020.39.22%20(1).jpeg)
 
 **Diagrama de Estados**
 
-
-
-
+![](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/WhatsApp%20Image%202020-09-06%20at%2020.39.22.jpeg)
 
 
 ## 7. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
