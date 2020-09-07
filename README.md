@@ -229,7 +229,7 @@ En este caso *S0*, sera el primer estado entonces colocamos en el primer casille
 
 Para el desarrollo de esta máquina de estados se estableció en primer lugar la siguiente codificación para las monedas ingresadas:
 
-![](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/MONEDAS.PNG)
+![Definicion Monedas](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/MONEDAS.PNG)
 
 Cada moneda podrá ser ingresada siempre y cuando se entregue el flanco correspondiente al reloj para el desarrollo del circuito establecido.
 
@@ -256,11 +256,11 @@ Dando como resultado el diagrama de estados que se muestra a continuación
 
 Además se tendrá a disposición dos displays de visualización para el cambio y la bebida que mostrán C y B respectivamente dependiendo del valor de monedas que se haya ingresado.
 
-![Cambio o bebida]()
+![Cambio o bebida](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/CAMBIOBEBIDA.PNG)
 
 Sin embargo, además de la entrega de bebida el enunciado propne la selección entre una gaseosa, cerveza o agua. Para esta decisión se implementa una nueva codificación que define cuál de estas bebidas será elegida y su ingreso se realiza por las mismas entradas de las monedas (ya que si no hay flanco para las monedas, la codificación de la entrada no afectará el vaor acumulado) y esta variable se puede visualizar por medio de displays de 7 seg
 
-![Codigo de Bebidas]()
+![Codigo de Bebidas](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/DEFBEBIDAS.PNG)
 
 Para poder establecer todos estos puntos se realizó una tabla de variables de estado presente y próximo junto con sus salidas determinadas:
 
