@@ -212,7 +212,7 @@ Partiendo del estado S0, calcula la salida para la cadena de entrada 1000110
 **Diagrama de Estados**
 
 
-![Diagrama_de_estados_ejercicio_4.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_de_estados_ejercicio_4.png)
+![Diagrama_de_estados_ejercicio_4.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama%20de%20estados%20ejercicio%204%20(1).png)
 
 
 
