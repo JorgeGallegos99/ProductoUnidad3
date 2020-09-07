@@ -185,7 +185,7 @@ Para poder dibujar nuestro Diagrama de estados partimos del primer estado (S0) e
 
 Continuamos con la siguiente subcolumna, la maquina salta de S0 a S3 debido a que es el estado que toma la maquina cuando toma el valor de B, dibujamos la transición y colocamos la correspondiente entrada y salida de esta subcolumna. Realizamos el mismo procedimiento con cada estado y con cada posible valor que puede tomar la máquina.
 
-![jf9](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf9.PNG)
+![jf9](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf9.png)
 
 ![jf10](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf10.PNG)
 
