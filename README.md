@@ -175,7 +175,7 @@ Con el último estado al no tener una entrada tampoco sabemos que salida tendrá
 
 **6.2. Dibuje el diagrama de estados para la máquina de estado finito cuya tabla de estados es la siguiente. Partiendo del estado inicial s0, calcula la salida para la cadena de entrada abbccc.**
 
-   ![jf7](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf7.PNG)
+ ![jf7](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf7.PNG)
 
 ![Diagrama_de%20_Estados%20_Ejercicio%20_2.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_de%20_Estados%20_Ejercicio%20_2.png)
 
