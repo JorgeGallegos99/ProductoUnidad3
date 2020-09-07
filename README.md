@@ -227,17 +227,44 @@ En este caso *S0*, sera el primer estado entonces colocamos en el primer casille
 
 **Explicación**
 
+Para el desarrollo de esta máquina de estados se estableció en primer lugar la siguiente codificación para las monedas ingresadas:
 
+![](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/MONEDAS.PNG)
 
-**Tabla**
+Cada moneda podrá ser ingresada siempre y cuando se entregue el flanco correspondiente al reloj para el desarrollo del circuito establecido.
 
+Partiendo de esto se analizaron todos los posibles estados que intervienen en el funcionamiento de la máquina de bebidas: 
 
+A: Cero centavos: 000
+B: Cinco centavos: 001
+C: Diez centavos: 010
+D: Quince centavos: 011
+E: Veinte centavos: 100
+F: Veinte y cinco o más centavos: 000 Siendo este punto el reinicio de la máquina y la entrega de la bebida
+
+Teniendo los estados anteriores involucrados en la transición de presente a próximo estado como se muestra en la siguiente tabla:
+
+**Tabla de transición**
+
+![Tabla transición bebidas](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/TABLATRANSICIONBEBIDAS.jpeg)
+
+Dando como resultado el diagrama de estados que se muestra a continuación
 
 **Diagrama de Estados**
 
-
 ![Diagrama_de_estados_ejercicio_4.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama%20de%20estados%20ejercicio%204%20(1).png)
 
+Además se tendrá a disposición dos displays de visualización para el cambio y la bebida que mostrán C y B respectivamente dependiendo del valor de monedas que se haya ingresado.
+
+![Cambio o bebida]()
+
+Sin embargo, además de la entrega de bebida el enunciado propne la selección entre una gaseosa, cerveza o agua. Para esta decisión se implementa una nueva codificación que define cuál de estas bebidas será elegida y su ingreso se realiza por las mismas entradas de las monedas (ya que si no hay flanco para las monedas, la codificación de la entrada no afectará el vaor acumulado) y esta variable se puede visualizar por medio de displays de 7 seg
+
+![Codigo de Bebidas]()
+
+Para poder establecer todos estos puntos se realizó una tabla de variables de estado presente y próximo junto con sus salidas determinadas:
+
+![Tabla final de Bebidas](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/TABLABEBIDASS.jpeg)
 
 
 **6.5 Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:**
