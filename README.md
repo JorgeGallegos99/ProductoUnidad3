@@ -210,7 +210,7 @@ Partiendo del estado S0, calcula la salida para la cadena de entrada 1000110
 
 **6.3. Halle la tabla de estados para la máquina de estado finito cuyo diagrama de estados es:**
 
-![ ](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_estado_ejer4.PNG)
+![Diagrama_estado_ejer3.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_estado_ejer3.PNG)
 
 * Para obtener la tabla de transisiciones,  se debe tener en cuenta cual es el  estado de inicio.                                                                               
 
