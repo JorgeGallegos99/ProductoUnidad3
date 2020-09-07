@@ -261,7 +261,7 @@ Dando como resultado el diagrama de estados que se muestra a continuación
 
 **Diagrama de Estados**
 
-![Diagrama_de_estados_ejercicio_4.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama%20de%20estados%20ejercicio%204%20(1).png)
+![Diagrama_de_estados_ejercicio_4.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/DIAGRAMAESTADOSBEBIDAS.PNG)
 
 Sin embargo, además de la entrega de bebida el enunciado propne la selección entre una gaseosa, cerveza o agua. Para esta decisión se implementa una nueva codificación que define cuál de estas bebidas será elegida y su ingreso se realiza por las mismas entradas de las monedas (ya que si no hay flanco para las monedas, la codificación de la entrada no afectará el vaor acumulado) y esta variable se puede visualizar por medio de displays de 7 seg
 
