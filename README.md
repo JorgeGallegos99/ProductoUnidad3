@@ -216,18 +216,28 @@ Con el último estado al no tener una entrada tampoco sabemos que salida tendrá
 
  ![jf7](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf7.PNG)
 
+ **Figura 15:** Tabla de Transiciones, ejercicio 2
+ 
 ![Diagrama_de%20_Estados%20_Ejercicio%20_2.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_de%20_Estados%20_Ejercicio%20_2.png)
 
+ **Figura 16:**  Diagrama de estado Completo, ejercicio 2
+ 
 Para poder dibujar nuestro Diagrama de estados partimos del primer estado (S0) el cual se ubica en la primera fila de nuestra tabla. En el estado siguiente está dado por el estado que toma la maquina cuando toma el valor de a, en este caso S0, debemos dibujar esa transición y colocar la entrada y su correspondiente salida.
 
 ![jf8](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf8.PNG)
 
+ **Figura 17:** Graficación del Diagrama de estado, ejercicio 2
+ 
 Continuamos con la siguiente subcolumna, la maquina salta de S0 a S3 debido a que es el estado que toma la maquina cuando toma el valor de B, dibujamos la transición y colocamos la correspondiente entrada y salida de esta subcolumna. Realizamos el mismo procedimiento con cada estado y con cada posible valor que puede tomar la máquina.
 
 ![jf9](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf9.png)
 
+ **Figura 18:** Graficación del Diagrama de estado, ejercicio 2
+
 ![jf10](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf10.PNG)
 
+ **Figura 19:** Tabla con la Salida para abbccc.
+ 
 Al igual que en el primer ejercicio debemos apoyarnos en la tabla de transición 
 El primer estado es S0 y cuando toma el valor de “a” su salida correspondiente es  “0” y el estado siguiente es S0, nos posicionamos en la fila que tenga S0, cuando este estado toma el valor de b su salida correspondiente es “1” y el estado siguiente que genera es S3, repetimos el procedimiento con todos los estados hasta que llegamos al estado final el cual solo se deja indicado ya que no tenemos una entrada y por lo tanto no podemos calcular su salida solo sabemos que será el estado siguiente.
 
@@ -237,11 +247,15 @@ Partiendo del estado S0, calcula la salida para la cadena de entrada 1000110
 
 ![Diagrama_estado_ejer3.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_estado_ejer3.PNG)
 
+ **Figura 20:** Diagrama del ejericio propuesto 3.
+
 * Para obtener la tabla de transisiciones,  se debe tener en cuenta cual es el  estado de inicio.                                                                               
 
 En este caso *S0*, sera el primer estado entonces colocamos en el primer casillero de estados de nuestra tabla de transiciones    
 
 ![ ](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Ejer3_1.PNG)
+
+**Figura 21:** Inicio del diagrama.
 
 * A continuacion vemos que sucede con las flechas, tanto las que salen como las que ingresan ya que nos indicarán a que estado debemos dirigirnos.
 
@@ -251,12 +265,15 @@ En este caso *S0*, sera el primer estado entonces colocamos en el primer casille
 
 ![](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Diagrama_estado_ejer3_2.PNG)
 
+**Figura 21:** Partes del diagrama.
+
 Entonces en la primera columna colocaremos los estados, en la segunda columna Transiciones y la última sera Salida las dos se dividirán en 1, 0 y dependiendo de en que estado se encuentre se colocará, el estado y el valor de 0 o de 1.
 
 A continuación se muestra la tabla resultante con base en el diagrama de estados dado.
 
 ![Tablaej_3.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Tablaej_3.PNG)
 
+**Figura 22:** Tabla de transiciones, a partir de un diagrama de estados.
 
 **6.4. Construya una máquina de estado finito que modele una máquina expendedora de bebidas que acepta monedas de 5, 10 y 20 centavos. La máquina acepta monedas hasta que se introducen 25 centavos y devuelve cualquier cantidad que supere los 25 céntimos. Entonces, el cliente puede pulsar los botones y elegir una bebida de cola (G), cerveza (C) o agua (A).**
 
@@ -265,6 +282,8 @@ A continuación se muestra la tabla resultante con base en el diagrama de estado
 Para el desarrollo de esta máquina de estados se estableció en primer lugar la siguiente codificación para las monedas ingresadas:
 
 ![Definicion Monedas](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/MONEDAS.PNG)
+
+**Figura 23:** Codificación para las monedas
 
 Cada moneda podrá ser ingresada siempre y cuando se entregue el flanco correspondiente al reloj para el desarrollo del circuito establecido.
 
@@ -286,11 +305,15 @@ Además se tendrá a disposición dos displays de visualización para el cambio 
 
 ![Cambio o bebida](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/CAMBIOBEBIDA.PNG)
 
+**Figura 23:** Salidas de cambio y bebida
+
 Teniendo los estados anteriores involucrados en la transición de presente a próximo estado como se muestra en la siguiente tabla:
 
 **Tabla de transición**
 
 ![Tabla transición bebidas](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/TABLATRANSICIONBEBIDAS.jpeg)
+
+**Figura 24:** Tabla de Transicion del ejercicio 4.
 
 Dando como resultado el diagrama de estados que se muestra a continuación
 
@@ -298,14 +321,20 @@ Dando como resultado el diagrama de estados que se muestra a continuación
 
 ![Diagrama_de_estados_ejercicio_4.png](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/DIAGRAMAESTADOSBEBIDAS.PNG)
 
+
+**Figura 24:** Diagrama de Estados resultante.
+
 Sin embargo, además de la entrega de bebida el enunciado propne la selección entre una gaseosa, cerveza o agua. Para esta decisión se implementa una nueva codificación que define cuál de estas bebidas será elegida y su ingreso se realiza por las mismas entradas de las monedas (ya que si no hay flanco para las monedas, la codificación de la entrada no afectará el vaor acumulado) y esta variable se puede visualizar por medio de displays de 7 seg
 
 ![Codigo de Bebidas](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/DEFBEBIDAS.PNG)
+
+**Figura 25:** Tipos de Bebidas.
 
 Para poder establecer todos estos puntos se realizó una tabla de variables de estado presente y próximo junto con sus salidas determinadas:
 
 ![Tabla final de Bebidas](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/TABLABEBIDASS.jpeg)
 
+**Figura  26:** Estado presente y próximo en Displays
 
 **6.5 Construya una máquina de estados finito que modele un circuito de riego automático como el mostrado en la figura. El circuito deberá accionar la bomba en las siguientes condiciones:
 a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero antes debe comprobar las siguientes condiciones:
@@ -329,6 +358,10 @@ a. El circuito accionará la bomba solamente cuando la tierra esté seca, pero a
     
 **c. Y la salida B, que accionará la bomba para regar: Bomba funcionando: B=1; Bomba apagada B=0.**
 
+![](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Ejercicio5.png)
+
+**Figura  27:** Sistema de Riego.
+
 **Explicación** 
 
 Para la realizacion de la tabla de transicion de este ejercicos partimos del la condcion de que la bomba solo funcionarrá cuando la tierra esté seca.
@@ -340,14 +373,17 @@ para el caso del estado D se concidero que cuando sea de noche el estado siguien
 
 por ultimo el estado V representa si el tanque de agua esta lleno o vacio, cuando el tanque esta lleno el funcionamiento de la bomba dependera de si el suelo esta seco o húmedo. ara cuando el tanque este vacio se quedara en el mismo estado debido a que una de las condiciones establecidas es que la bomba no debe funcionar si el tanque esta vacio. 
 
-
 **Tabla:**
 
 ![](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/WhatsApp%20Image%202020-09-06%20at%2020.39.22%20(1).jpeg)
 
+**Figura  28:** Tabla de Transiciones, ejericicio 5
+
 **Diagrama de Estados**
 
 ![](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/WhatsApp%20Image%202020-09-06%20at%2020.39.22.jpeg)
+
+**Figura  29:** Diagrama de Estados completo, ejericicio 5
 
 
 ## 7. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
@@ -361,17 +397,25 @@ Damos clic en sign in
 
 ![jf11](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf11.PNG))
 
+**Figura  30:** Paso 1 en la Plataforma creately.
+
 En la siguiente pagina damos clic en Sign in with google o ingresamos con nuestro correo electronico con el que nos registramos.
 
 ![jf12](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf12.PNG))
+
+**Figura  31:** Paso 2 en la Plataforma creately.
 
 Para crar un nuevo diseño damos clic en el boton “añadir documento”
 
 ![jf13](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf13.PNG))
 
+**Figura  32:** Paso 3 en la Plataforma creately.
+
 Se abritra una nueva pestaña en nuestro navegador, aquí debemos elegir el tipo de diseñoq eu queremos usar, para nuetro caso usaremos abriremos una hoja de trabajo en blanco
 
 ![jf14](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf14.PNG))
+
+**Figura  33:** Paso 4 en la Plataforma creately.
 
 Una vez dentro de la hoja de, al lado izquiedo de la pagina se encuntran todas las formass que podemos usar para nuestro diseño. Seleccionamos uno y lo arrastramos al centro de la hoja de trabajo 
 
@@ -379,14 +423,19 @@ Una vez dentro de la hoja de, al lado izquiedo de la pagina se encuntran todas l
 
 ![jf16](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf16.PNG)
 
+**Figura  34:** Herramientas para los gráficos.
+
 Seleccionamos tantas figuras como sean necesarias cuando damos clic en alguna figura de despliega un menu con opciones para editar nuestra figura, como por ejempllo darle color o poner un texto dentro
 
 ![jf17](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf17.PNG)
+
+**Figura  35:** Opciones rápidas en el mismo gráfico.
 
 Basta con tener un poco de creatividad para sacarle el maximo provecho a esta herramienta! 
 
 ![jf18](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jf18.PNG)
 
+**Figura  36:** Gráfico creado con Creately.
 
 ## 8. APORTACIONES
 
@@ -395,23 +444,34 @@ Esta máquina de bebidas funciona con 3 monedas: 5, 10, 15. Y entrega una gaseos
 
 ![Aporte](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/APORTE.PNG)
 
+**Figura  37:** Máquina expendedora de Gaseosas.
+
 El ingreso de los datos se lo realiza por un DipSwitch de 2 entradas y solo se podra ingresar las monedas cuando se de un "flanco" al circuito
 
 ![Ingreso Datos](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/APINGRESODATOS.PNG)
 
+
 ![Flanco](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/APFLANCOS.PNG)
+
+**Figura  38:** Ingreso de datos, monedas.
 
 Se utilizó un sistema de decodificación de próximo estado por medio de multiplexores y compuertas
 
 ![Deco ProxEstado](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/APDECO.PNG)
 
+**Figura  38:** Decodificador de Próximo estado.
+
 El elemento de memoria utilizado funciona en base flip-flops 
 
 ![Elemento Memoria](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/APELEMENTOMEMORIA.PNG)
 
+**Figura  39:** Elemento de Memoria.
+
 Finalmente para la visualización de los valores en los displays se utilizó una decodificación de salida para estos datos:
 
 ![Deco Salida](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/APDECOSALIDA.PNG)
+
+**Figura  40:** Salida de datos, gaseosa o cambio en Displays.
 
 ## 9. CONCLUSIONES
 
@@ -421,6 +481,7 @@ Finalmente para la visualización de los valores en los displays se utilizó una
 
 ![jcronograma](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/jcronograma.PNG)
 
+**Figura  41:** Cronograma de trabajo en Monday.
 ## 12. BIBLIOGRAFÍA
 
 https://www.tecbolivia.com/index.php/articulos-y-tutoriales-microcontroladores/13-introduccion-a-las-maquinas-de-estado-finito
