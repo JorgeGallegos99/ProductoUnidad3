@@ -20,6 +20,9 @@ En base a estos conceptos se pretende realizar el análisis de varios ejercicios
 
 * Construir para cada ejercicio una tabla de transición a partir de un diagrama de estados.
 
+* Continuar con el proceso de diseño de circuitos digitales.
+
+
 ## 3. ESTADO DEL ARTE
 
 * **Detector de bordes negativos de Moore y Mealy Un ejemplo de VHDL para máquina de estados finitos**
