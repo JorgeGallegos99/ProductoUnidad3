@@ -274,7 +274,7 @@ Entonces en la primera columna colocaremos los estados, en la segunda columna Tr
 
 A continuación se muestra la tabla resultante con base en el diagrama de estados dado.
 
-![Tablaej_3.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Tablaej_3.PNG)
+![Tabla_ejericio_3.PNG](https://github.com/JorgeGallegos99/ProductoUnidad3/blob/master/Img/Tabla_ejericio_3.PNG)
 
 **Figura 22:** Tabla de transiciones, a partir de un diagrama de estados.
 
