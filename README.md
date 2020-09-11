@@ -488,8 +488,9 @@ Finalmente para la visualización de los valores en los displays se utilizó una
 
 ## 10. RECOMENDACIONES
 
+* Debemos tener claro el funcionamiento que queremos darle a la maquina de estado para que la misma funcione de manera optima y de la forma esperada.
 
-
+* Reconocer todos los estados que se encuentran presentes en los ejercicios propuestos y las transiciones que se realizan en cada proceso para tener un diagrama y tabla precisos
 
 ## 11. CRONOGRAMA
 
