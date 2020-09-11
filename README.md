@@ -478,7 +478,18 @@ Finalmente para la visualización de los valores en los displays se utilizó una
 
 ## 9. CONCLUSIONES
 
+* Las máquina de estados facilita la visualización de diferentes procesos sin generar conflicto alguno, se conoce el estado anterior y el estado próximo al que pasará la máquina, dando ocasion a tener una maquina más extensa ya que solo se agrega un nuevo estado conteniendo un proceso diferente.
+
+* Analizando cada Diagrama de estado se entiende el funcionamiento de los ejericios pues estos nos muestran el conjunto de estados por lo que el proceso evaluado en cada ejercicio esta atravezando.
+
+* Cada ejericicio tiene una tabla diferente ya que las entradas y salidas son distintas y para armar la tabla de transiciondes se debe tener en cuentas el estado actual como otro tipo de entradas y en las salidas siempre se incluye el siguiente estado y las diferentes salidas que piedan existir.
+
+* El ejemplo realizado en la aportación nos permite vizualizar como el diseño de circuitos digitales se simplifica aún más teniendo en cuenta a las máquinas de estado, siendo otra opción para el diseño de circuitos digitales.
+
 ## 10. RECOMENDACIONES
+
+
+
 
 ## 11. CRONOGRAMA
 
